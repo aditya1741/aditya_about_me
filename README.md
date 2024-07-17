@@ -1,89 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Android Developer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77b300 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>About Me - Android Developer</h1>
+
+<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f4f4;">
+    <header style="background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #77b300 3px solid;">
+        <div style="width: 80%; margin: auto; overflow: hidden;">
+            <div id="branding" style="float: left;">
+                <h1 style="margin: 0;">About Me - Android Developer</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#background">Background</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <nav style="float: right; margin-top: 10px;">
+                <ul style="padding: 0; list-style: none;">
+                    <li style="display: inline; padding: 0 20px;"><a href="#background" style="color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px;">Background</a></li>
+                    <li style="display: inline; padding: 0 20px;"><a href="#skills" style="color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px;">Skills</a></li>
+                    <li style="display: inline; padding: 0 20px;"><a href="#projects" style="color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px;">Projects</a></li>
+                    <li style="display: inline; padding: 0 20px;"><a href="#experience" style="color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px;">Experience</a></li>
+                    <li style="display: inline; padding: 0 20px;"><a href="#contact" style="color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px;">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="background" class="container">
+    <section id="background" style="padding: 20px; width: 80%; margin: auto;">
         <h2>Background</h2>
         <p>I have been working in the field of Android development for over [X] years. My journey began with a fascination for mobile technology and has evolved into a career where I get to bring innovative ideas to life through coding. I hold a degree in [Your Degree] from [Your University], where I honed my skills in software development and mobile computing.</p>
     </section>
 
-    <section id="skills" class="container">
+    <section id="skills" style="padding: 20px; width: 80%; margin: auto;">
         <h2>Skills</h2>
         <h3>Programming Languages & Frameworks</h3>
         <ul>
@@ -111,7 +50,7 @@
         </ul>
     </section>
 
-    <section id="projects" class="container">
+    <section id="projects" style="padding: 20px; width: 80%; margin: auto;">
         <h2>Projects</h2>
         <h3>[Project 1: App Name]</h3>
         <p><strong>Description</strong>: Brief overview of the project.</p>
@@ -126,7 +65,7 @@
         <p><strong>GitHub Link</strong>: <a href="[Link to the repository]">[Link to the repository]</a></p>
     </section>
 
-    <section id="experience" class="container">
+    <section id="experience" style="padding: 20px; width: 80%; margin: auto;">
         <h2>Experience</h2>
         <h3>[Company Name]</h3>
         <p><strong>Role</strong>: [Your Position]</p>
@@ -139,7 +78,7 @@
         <p><strong>Responsibilities</strong>: Key responsibilities and achievements in this role.</p>
     </section>
 
-    <section id="contact" class="container">
+    <section id="contact" style="padding: 20px; width: 80%; margin: auto;">
         <h2>Contact</h2>
         <p>I am always open to new opportunities and collaborations. Feel free to reach out to me through the following channels:</p>
         <ul>
@@ -149,8 +88,7 @@
         </ul>
     </section>
 
-    <footer>
+    <footer style="background: #333; color: #fff; text-align: center; padding: 10px; margin-top: 20px;">
         <p>Thank you for visiting my "About Me" page. I look forward to connecting with you!</p>
     </footer>
 </body>
-</html>
