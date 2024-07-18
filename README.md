@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Hello! Welcome to my "About Me" page. I am an experienced Android Developer with a passion for creating high-quality mobile applications. Here, you'll find information about my background, skills, projects, and how to get in touch with me.
+Hello! Welcome to my "About Me" page. I am an  Android Developer with a passion for creating high-quality mobile applications. Here, you'll find information about my background, skills, projects, and how to get in touch with me.
 
 ## Background
 
-I have been working in the field of Android development for over [X] years. My journey began with a fascination for mobile technology and has evolved into a career where I get to bring innovative ideas to life through coding. I hold a degree in [Your Degree] from [Your University], where I honed my skills in software development and mobile computing.
+I have been working in the field of Android development. My journey began with a fascination for mobile technology and has evolved into a career where I get to bring innovative ideas to life through coding. I hold a degree in [MCA] from [SRM University], where I honed my skills in software development and mobile computing.
 
 ## Skills
 
@@ -32,14 +32,17 @@ I have been working in the field of Android development for over [X] years. My j
 
 ## Projects
 
-### [Project 1: App Name]
-- **Description**: Brief overview of the project.
-- **Technologies Used**: List of key technologies and tools used.
-- **Role**: Your specific role and contributions.
-- **GitHub Link**: [Link to the repository]
+### [Project 1: Weather App]
+- **Description**: The Weather App for Android is a comprehensive and user-friendly application designed to provide real-time weather updates and forecasts. It offers users accurate and detailed weather information, ensuring they are always prepared for changing weather conditions.
+- **Technologies Used**:
+- **Frontend:** Developed using xml, with a focus on delivering a responsive and visually appealing interface..
+- **Backend**:Integration with reliable weather APIs such as OpenWeatherMap
+-**Networking**: Utilizes OkHttp for efficient and reliable network operations, ensuring smooth and fast data retrieval.
+-**Geolocation Services**: Utilizes Android’s location services to provide local weather updates based on the user's current location.
+- **GitHub Link**: [https://github.com/aditya1741/weather_app]
 
-### [Project 2: App Name]
-- **Description**: Brief overview of the project.
+### [Project 2: Quiz App]
+- **Description**: .
 - **Technologies Used**: List of key technologies and tools used.
 - **Role**: Your specific role and contributions.
 - **GitHub Link**: [Link to the repository]
